@@ -1,6 +1,6 @@
 {
   "name": "nativeencrypt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Front-end JavaScript Encryption and Obfuscation Module for Client-Side Security",
   "main": "native-encrypt.js",
   "scripts": {

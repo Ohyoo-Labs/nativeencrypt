@@ -397,7 +397,7 @@ console.log(textoCifrado); // Ejemplo: '367234556 123456'
 ```javascript
 const textoOriginal = NativeEncrypt.dictionaryDecrypt({
   text: '367234556 123456',
-  key: 'clave',
+  key: dictionary["opcional"], // El diccionario a utilizar, si no se especifica se utiliza el diccionario por defecto que se encuentra en el archivo dictionary.js. Este debe ser el mismo que en la encriptación.
   salt: number, // Número de iteraciones debe ser el mismo que en la encriptación
   publickey: 'publica'
 });
@@ -735,12 +735,19 @@ Desencripta un texto encriptado con la Cifra de César.
 
 **Retorna:** Texto desencriptado.
 
+#### `generateDictionary(url)`
+Obtiene un diccionario de palabras desde una URL. Si no se especifica una URL, se utiliza el diccionario por defecto.
+
+- `url` (string): URL del diccionario de caracteres.
+
+**Retorna:** Diccionario de caracteres.
+
 #### `dictionaryEncrypt({ text, key, salt, publickey })`
 
 Encripta un texto utilizando un diccionario de palabras.
 
 - `text` (string): Texto a encriptar.
-- `key` (string): Clave de encriptación.
+- `key` (string): Diccionario de caracteres [opcional].
 - `salt` (number): Valor de sal para encriptación.
 - `publickey` (string): Clave pública para encriptación.
 
@@ -751,7 +758,7 @@ Encripta un texto utilizando un diccionario de palabras.
 Desencripta un texto encriptado con un diccionario de palabras.
 
 - `text` (string): Texto encriptado.
-- `key` (string): Clave de encriptación.
+- `key` (string): Diccionario de caracteres [opcional]. Debe ser el mismo que en la encriptación.
 - `salt` (number): Valor de sal para encriptación.
 - `publickey` (string): Clave pública para encriptación.
 
