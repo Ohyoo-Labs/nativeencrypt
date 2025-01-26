@@ -1,11 +1,21 @@
 {
   "name": "nativeencrypt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Front-end JavaScript Encryption and Obfuscation Module for Client-Side Security",
   "main": "native-encrypt.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no se especificaron pruebas\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ohyoo-Labs/nativeencrypt.git"
+  },
+  "keywords": [
+    "nativescript",
+    "encryption",
+    "obfuscation",
+    "webcrypto"
+  ],
   "author": "SipyOne",
   "license": "MIT"
 }
