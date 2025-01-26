@@ -1,6 +1,6 @@
 # NativeEncrypt.js
 
-**NativeEncrypt.js** es un módulo de JavaScript diseñado para simplificar y potenciar ciertas funcionalidades de encriptación, desencriptación, conversión de datos y ofuscación. Aprovechando las capacidades nativas de la Web Crypto API, **NativeEncrypt.js** ofrece un conjunto de herramientas que combinan seguridad y facilidad de uso, permitiendo a los desarrolladores integrar funcionalidades criptográficas en sus aplicaciones de manera eficiente.
+**NativeEncrypt.js** es un módulo de JavaScript diseñado para simplificar y potenciar ciertas funcionalidades de encriptación, desencriptación, conversión de datos y ofuscación. Aprovechando las capacidades nativas de la Web Crypto API, **NativeEncrypt.js** ofrece un conjunto de herramientas que combinan seguridad y facilidad de uso, permitiendo a los desarrolladores integrar ciertas funcionalidades criptográficas en sus aplicaciones de manera eficiente. Su objetivo es proporcionar una solución muy ligera y bastante versátil para tareas comunes de encriptación y ofuscación de datos, sin depender de bibliotecas externas o servicios de terceros y con un peso mucho menor al de otras bibliotecas de encriptación.
 
 ## Tabla de Contenidos
 
