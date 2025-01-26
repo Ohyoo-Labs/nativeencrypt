@@ -361,12 +361,18 @@ console.log(textoOriginal); // Muestra: 'Hola Mundo'
 
 La encriptación basada en diccionario reemplaza palabras en un texto con sinónimos o palabras aleatorias de un diccionario.
 
+### Importar Diccionario
+
+```javascript
+ const dictionary = NativeEncrypt.getDictionary(url); // url es la ruta local o remota del diccionario a utilizar, si no se especifica se utiliza el diccionario por defecto que se encuentra en el archivo dictionary.js.
+```
+
 ### Encriptar con Diccionario
 
 ```javascript
 const textoCifrado = NativeEncrypt.dictionaryEncrypt({
   text: 'Hola Mundo',
-  key: 'clave',
+  key: dictionary["opcional"], // El diccionario a utilizar, si no se especifica se utiliza el diccionario por defecto que se encuentra en el archivo dictionary.js.
   salt: number,
   publickey: 'publica'
 });
