@@ -831,7 +831,7 @@ El módulo fue probado en sistemas operativos Windows, macOS y Linux.
 
 Si deseas contribuir a **NativeEncrypt.js**, por favor sigue estos pasos:
 
-1. Realiza un fork del repositorio.
+1. Realiza un fork del repositorio de desarrollo `https://github.com/Ohyoo-Labs/nativeencrypt-dev.git`.
 2. Crea una nueva rama (`git checkout -b feature/feature-name`).
 3. Realiza los cambios necesarios y haz commit de tus cambios (`git commit -am 'Add new feature'`).
 4. Realiza un push a la rama (`git push origin feature/feature-name`).
